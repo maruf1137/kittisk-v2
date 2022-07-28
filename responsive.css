@@ -1,0 +1,10 @@
+@media only screen and (max-width: 75em) {
+	.left-sidebar {
+		/* position: absolute;
+		top: 0;
+		left: 0;
+		background-color: red;
+		width: 50%;
+		z-index: 2; */
+	}
+} ;
