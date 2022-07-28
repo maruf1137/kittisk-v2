@@ -101,6 +101,7 @@ body {
 .left-sidebar {
 	padding: 2px;
 	border: 1px solid var(--color-border);
+	overflow: hidden;
 	/* min-width: 300px; */
 }
 
