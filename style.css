@@ -26,7 +26,7 @@ body {
 	background-color: var(--color-primary);
 	color: var(--color-black);
 	font-size: 16px;
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 }
 
 /* ========================================== */
@@ -101,7 +101,7 @@ body {
 .left-sidebar {
 	padding: 2px;
 	border: 1px solid var(--color-border);
-	overflow: hidden;
+	overflow-x: hidden;
 	/* min-width: 300px; */
 }
 
@@ -194,6 +194,26 @@ body {
 .discussion-info h6 {
 	border-radius: 5px;
 }
+/* 
+.show-images {
+	display: block;
+	cursor: pointer;
+	background-color: var(--color-white);
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 45px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+
+.show-images .icon {
+	height: 20px;
+	width: 20px;
+} */
 
 .writeMsg {
 	gap: 10px;
@@ -300,11 +320,12 @@ body {
 
 .bottom {
 	font-family: 'Times New Roman', Times, serif;
+	width: 100vw;
 }
 
 .bottom .bottom-left {
 	background-color: #f3f3f3ff;
-	padding: 20px 30px;
+	padding: 20px 0 20px 30px;
 }
 
 .bottom .bottom-left .btns {
@@ -312,7 +333,7 @@ body {
 }
 
 .bottom .droite {
-	padding: 20px 30px;
+	padding: 20px 0 20px 30px;
 	background-color: #f3f3f3ff;
 	gap: 10px;
 }

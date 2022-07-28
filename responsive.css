@@ -1,10 +1,26 @@
-@media only screen and (max-width: 75em) {
-	.left-sidebar {
-		/* position: absolute;
-		top: 0;
-		left: 0;
-		background-color: red;
-		width: 50%;
-		z-index: 2; */
+@media only screen and (max-width: 36em) {
+	.display-head {
+		flex-direction: column;
+	}
+
+	.form {
+		display: none !important;
+	}
+
+	.writeMsg-images {
+		display: none !important;
+	}
+
+	/* .show-images {
+		display: flex;
+	} */
+
+	.nav-logo {
+		height: 50px;
+		width: auto;
+	}
+
+	.display-head {
+		flex-direction: column;
 	}
 } ;
