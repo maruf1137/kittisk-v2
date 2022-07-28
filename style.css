@@ -26,6 +26,7 @@ body {
 	background-color: var(--color-primary);
 	color: var(--color-black);
 	font-size: 16px;
+	overflow-x: hidden;
 }
 
 /* ========================================== */
